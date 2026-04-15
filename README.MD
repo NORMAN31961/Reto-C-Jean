@@ -76,7 +76,7 @@ npm run dev
 ## Estructura del Proyecto
 
 ```
-kometa-prueba-tecnica/
+Reto-C-Jean/
 ├── .gitignore                    # Archivos ignorados por Git
 ├── README.md                     # Este archivo
 │
