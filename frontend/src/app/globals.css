@@ -1,0 +1,285 @@
+/* Global Styles - Agente IA Decano */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.header p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Main */
+.main {
+  padding: 40px 0;
+}
+
+/* Progress Steps */
+.steps {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  background: #eee;
+  color: #999;
+}
+
+.step.active {
+  background: #0066cc;
+  color: white;
+}
+
+.step.done {
+  background: #00aa44;
+  color: white;
+}
+
+/* Current Step */
+.current-step {
+  padding: 12px 16px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Main Content */
+.main-content {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+/* Step Content */
+.step-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.step-content ul {
+  margin-left: 20px;
+  line-height: 2;
+}
+
+/* Content Box */
+.content-box, .email-box {
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.content-box pre, .email-box pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 1.6;
+}
+
+.email-box {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  font-family: Georgia, serif;
+}
+
+.email-box pre {
+  font-family: Georgia, serif;
+}
+
+/* Step Actions */
+.step-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.btn-primary {
+  background: #0066cc;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0055aa;
+}
+
+.btn-secondary {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+.btn-danger {
+  background: #ffeeee;
+  color: #dd3333;
+  border: 1px solid #ffcccc;
+}
+
+.btn-danger:hover {
+  background: #ffdddd;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Feedback Input */
+.feedback-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.feedback-input:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+/* Success Box */
+.success-box {
+  background: #d4edda;
+  color: #155724;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+/* Final Report */
+.final-report {
+  max-height: none;
+  background: white;
+  border: 2px solid #00aa44;
+}
+
+/* Team Profile Section */
+.team-profile-section {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section-header h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.btn-small {
+  padding: 6px 12px;
+  font-size: 12px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-small:hover {
+  background: #e0e0e0;
+}
+
+.profile-display {
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: pre-wrap;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+}
+
+.profile-edit textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 12px;
+  font-size: 12px;
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.profile-edit textarea:focus {
+  outline: none;
+  border-color: #0066cc;
+}

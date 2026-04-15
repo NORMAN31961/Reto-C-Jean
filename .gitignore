@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+data.db
+venv/
+
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+build/
