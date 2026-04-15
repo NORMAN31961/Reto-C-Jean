@@ -210,15 +210,10 @@ def step4_facilitators(syllabus: str, feedback: str = None) -> str:
     Programa de formación:
     {syllabus[:1500]}
 
-    PERFILES DE FACILITADORES INTERNOS:
-    • María González (5 años): Experta en cierre y negociación
-    • Carlos Ruiz (4 años): Especialista en producto B2B
-    • Ana Martínez (3 años): Técnica de manejo de objeciones
-    • Pedro Suárez (4 años): Líder de ventas, mentoría
-    • Laura Chen (3 años): Negociación corporativa
-
-    Asigna a cada módulo un facilitador y justifica por qué es la mejor elección. No dejes ningun módulo sin facilitador.
+    
+    Asigna a cada módulo un facilitador experimentados y justifica por qué es la mejor elección. No dejes ningun módulo sin facilitador.
     **Responde en texto plano, sin formato Markdown ni caracteres especiales (no uses *, , #, guiones ni listas)**
+    *Toma como base los trabajadores de la empresa que llevan mas años en la empresa
     """
 
     if feedback:
